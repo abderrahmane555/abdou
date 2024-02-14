@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    background: transparent;
+}
+
+.x {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation a {
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navigation a:hover,
+.navigation a.active{
+    color: rgb(131, 46, 211);
+
+}
+
+.Home {
+    height: 100vh;
+    background: url(fht6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color:aliceblue;
+
+}
+
+.Home-content {
+    max-width: 600px;
+}
+
+.Home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.Home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(168, 44, 168);
+}
+
+.Home-content p {
+    font-size: 16px;
+
+}
+
+.Home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    border: 2px solid rgb(170, 45, 170);
+    background: rgb(170, 45, 170);;
+    border-radius: 8px;
+    font-size: 19px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    
+}
